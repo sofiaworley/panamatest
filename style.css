@@ -1,0 +1,74 @@
+*{padding:0;margin:0;}
+h1 {color:blue;}
+a {color:red;
+   margin-left:20px;
+   margin-right:20px;
+   font-size:35px;
+   text-decoration:none;
+}
+#navbar {
+  background-color:rgba(0,0,0,0.5);
+  width:100%;
+  height:50px;
+}
+.trio {
+  
+  padding-top:10%;
+  background:rgba(255,0,0,1);
+  width:100%;
+  height:300px;
+}
+.trio img {
+  padding:10px;
+  float:left;
+  width:31.5%;
+  height:200px;
+}
+.cuarteto {
+  padding-top:10%;
+  background:rgba(255,0,0,1);
+  width:100%;
+  height:300px;
+}
+.cuarteto img {
+  float:left;
+  width:24%;
+  height:200px;
+}
+.duo {
+  padding-top:10%;
+  background:rgba(255,0,0,1);
+  width:100%;
+  height:300px;
+}
+.duo img {
+  float:left;
+  width:400px;
+  padding-left:10%;
+  padding-right:10%;
+  height:275px;
+}
+.texto-duo {
+  float:left;
+  width:300px;
+  padding-left:10%;
+  padding-right:10%;
+  height:200px;
+  text-align:justify; 
+  line-height:2.5;
+  text-indent:45px;
+  font-size:20px;
+}
+
+p {
+  column-count: 3;
+  column-gap: 40px;
+  /*column-rule-style: solid*/
+  column-rule: 1px solid blue;
+
+}
+
+.duo p, .trio p, .cuarteto p {
+   column-count: 1;
+}
+
